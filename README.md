@@ -15,12 +15,19 @@ This is a multipage Streamlit web app for cleaning and analyzing speech audio. I
 ## 📁 Folder Structure
 
 ```
-speech_preprocessing_app/
-├── Home.py                  # Homepage UI
+speech-cleaner/
+├── Home.py                     # Homepage with button to start journey
 ├── pages/
-│   └── NewJourney.py        # Audio cleaning workflow
-├── requirements.txt         # Required Python packages
-└── README.md                # Project overview
+│   ├── 1_NewJourney.py         # Audio input choice (mic or file)
+│   ├── 2_Loading.py            # Loading screen (optional visual cue)
+│   ├── 3_Result.py             # Cleaned audio + MATLAB-like plots
+├── utils/
+│   └── dsp.py                  # Audio cleaning logic
+├── assets/
+│   └── wave_icon.png           # Optional image used in homepage
+├── requirements.txt
+└── README.md
+
 ```
 
 ## 🚀 How to Run
