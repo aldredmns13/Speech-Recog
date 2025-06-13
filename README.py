@@ -54,6 +54,8 @@ pip install streamlit streamlit-webrtc numpy soundfile librosa matplotlib noiser
 4. Run the app:
 ```bash
 streamlit run Home.py
+mv pages/Home.py .
+
 ```
 
 ## 🛠 Requirements
