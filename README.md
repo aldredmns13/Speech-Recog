@@ -47,6 +47,8 @@ source venv/bin/activate   # Windows: venv\Scripts\activate
 3. Install dependencies:
 ```bash
 pip install -r requirements.txt
+
+pip install streamlit streamlit-webrtc numpy soundfile librosa matplotlib noisereduce scipy
 ```
 
 4. Run the app:
