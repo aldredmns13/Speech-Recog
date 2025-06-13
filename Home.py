@@ -12,13 +12,4 @@ st.image("https://img.icons8.com/clouds/500/audio-wave--v1.png", width=250)
 st.markdown("### ➡️ Choose an Option Below")
 
 if st.button("🎙 Start Audio Cleaning Journey"):
-    st.switch_page("pages/NewJourney.py")
-
-st.markdown("---")
-
-st.markdown("""
-    ℹ️ **This tool allows you to:**
-    - Record audio or upload a file
-    - Clean the audio using DSP
-    - Compare before and after
-""")
+    st.switch_page("pages/1_NewJourney.py")
